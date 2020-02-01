@@ -1,0 +1,127 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+ 
+
+@media only screen and (max-width : 992px) {
+  header, main, footer {
+    padding-left: 0;
+  }
+}
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+/* Start of Side Nav */
+.sidenav-img img{
+  width: 300px;
+}
+
+
+/* End of Side Nav */
+
+
+
+/* Start of Form */
+
+  #form-fill .heading-text{
+    text-align: center;
+  }
+  #form-fill .heading-text h3{
+    text-transform: uppercase;
+  }
+#form-fill .gender-radio{
+  display: inline-block;
+  margin-right: 10px;
+}
+/* End of Form */
+
+
+
+/* Startd of Admin Index */
+.right-content{
+  margin-left: 300px;
+}
+.admin-content-bg{
+  background-color: #dadada;
+  height: 100vh;
+}
+/* Start of Nav */
+nav{ 
+ width: auto;
+} 
+nav .nav-wrapper{
+ padding: 0 20px;
+}
+/* End of Nav */
+
+@media only screen and (max-width : 992px){
+  .right-content{
+    margin-left: 0px;
+  }
+}
+@media only screen and (max-width : 768px){
+  .right-content{
+    margin-left: 0px;
+  }
+}
+@media only screen and (max-width : 600px){
+  .right-content{
+    margin-left: 0px;
+  }
+}
+/* @media only screen and (min-width : 600px){
+  .right-content{
+    margin-left: 0px;
+  }
+} */
+/* End of Admin Index */
+
+
+
+/* Start of Trip Master Page */
+
+.tableimg-logo{
+  width: 50px;
+}
+.tableimg-banner{
+  width: 100px;
+  border-radius:10%;
+}
+
+
+/* End of Trip Master Page */
+
+
+/* Start of Trip Gallery */
+
+.multiple-img{
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  border-radius: 50%;
+}
+.multiple-img .layer{
+  position: absolute;
+  background-color: #08080894;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  left: 0%;
+}
+.multiple-img p{
+  position: absolute;
+  top: 15%;
+  left: 30%;
+  font-size: 20px;
+  color: #fff;
+}
+
+/* End of Trip Gallery */
